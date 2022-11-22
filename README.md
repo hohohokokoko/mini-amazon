@@ -57,14 +57,3 @@ This file is NOT tracked by git and it was automatically generated when you firs
 You can change any credentials in this file.
 Only share the contents of this file securely with your teammates, but don't check it into git because your credentials would be exposed to everybody on gitlab if you are not careful.
 You can generate strong passwords with this tool: https://www.lastpass.com/password-generator
-
-## Editing Files using VS Code
-
-We recommend Visual Studio Code (VS Code).
-You can download and install it for your laptop from [this link](https://code.visualstudio.com/Download).
-
-If you use a local Vagrant VM, we recommending placing your project directory under `~/shared/` so you can edit files using VS Code running on your laptop.
-
-If you use a Google VM, your files live on the Google VM and you have no direct access to them.
-However, you can still set up VS Code to edit the files directly via SSH.
-See `README-vscode.md` in this repository for setup instructions.
